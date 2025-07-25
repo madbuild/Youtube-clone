@@ -1,0 +1,106 @@
+
+        
+        .whole{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            column-gap: 20px;
+            row-gap: 40px;
+            padding-top: 80px;
+            padding-left: 430px;
+           
+            
+        }
+        .body{
+            border-bottom-color: black;
+            border-bottom-width: 1px;
+            border-bottom-style:solid;
+
+        }
+        .box1{
+            
+            width:100%;
+            
+        }
+        .thumb1
+        {
+            width:100%;
+            margin-bottom:18px;
+            position: relative;
+        }
+        .t1{
+            width:100%;
+        }
+        .bottom1,.bottom2
+        {
+            display:grid;
+            grid-template-columns: 50px 1fr;
+            column-gap: 40px;
+            
+        }
+        .pro1{
+           
+            width:60px;
+            vertical-align: top;
+            margin-right :20px ;
+            
+        }
+        .text1{
+           
+            width: 250px;
+            font-family: 'Roboto',Arial;
+            
+        }
+        .pf1
+        {
+            border-radius: 40px;
+            width: 100%;
+            font-size: 30px;
+            font-weight: 1000;
+        }
+        p{
+            margin:0;
+        }
+        .p1{
+            font-weight: 800;
+            font-optical-sizing: 100px;
+            font-size: 25px;
+            margin-bottom: 8px;
+            
+        }
+        .p2,.p3
+        {
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+        .time{
+            font-family: 'Roboto',Arial;
+            background-color: black;
+            color:white;
+            position: absolute;
+            right:0px;
+            bottom:0px;
+            margin-right: 5px;
+            margin-bottom: 10px;
+            font-size: 20px;
+            padding-left: 2px;
+            padding-top: 3px;
+            padding-right: 2px;
+            padding-bottom: 3px;
+        }
+        .notifications{
+            position:relative;
+        }
+        .num3{
+            position:absolute;
+            background-color: red;
+            color:white;
+            font-size: 20px;
+            height: 20px;
+            width: 20px;
+            border-radius: 50%;
+            top: 0px;
+            right: 0px;
+            padding-left: 4px;
+        }
+
+   
